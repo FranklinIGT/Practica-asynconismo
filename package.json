@@ -1,0 +1,22 @@
+{
+  "name": "asyncronismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:Api": "node src/callback/challenge.js",
+    "Promise:Api": "node src/Promiese/challenge.js",
+    "Async:Api": "node src/AsyncAwait/challenge.js"
+  },
+  "keywords": [
+    "async",
+    "callback",
+    "promise"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
